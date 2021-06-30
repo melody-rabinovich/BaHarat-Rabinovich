@@ -160,7 +160,7 @@ nav {
 
 .galleryBox {
   display: flex;
-  justify-content: center; }
+  justify-content: space-around; }
 
 .galleryItem {
   padding: 1em;
@@ -239,18 +239,56 @@ nav {
     padding-top: 0; }
   .section__form {
     height: 98vh;
-    padding-top: 0; }
+    padding: 0;
+    margin: 0; }
   .redes {
     margin: 0.6em; }
-  footer {
-    font-size: 1em; }
-    footer .inicio {
-      font-size: 1.3em;
-      color: white; }
+  .inicio {
+    font-size: 1.3em;
+    color: white; }
   .iconSize {
     margin-top: 15px;
     height: 60px !important;
-    width: 60px !important; } }
+    width: 60px !important; }
+  .form {
+    margin: 0;
+    height: auto; } }
+
+@media only screen and (max-width: 1024px) {
+  nav {
+    height: 15vh; }
+  header {
+    height: 45vh; }
+    header h1 {
+      font-size: 2.9em; }
+    header h2 {
+      font-size: 1.8em; }
+    header h3 {
+      font-size: 1.3em; }
+  .index__bg {
+    height: 55vh; }
+  .gallery__h4 {
+    margin: 1.4em;
+    font-size: 1.5em; }
+  .galleryItem {
+    width: 15rem;
+    height: 12rem;
+    margin: 0.2em; }
+  .inicio {
+    font-size: 1em;
+    color: white; }
+  .presentacion__h4 {
+    font-size: 1.8em;
+    margin: 0.8em; }
+  .FAQ__h4 {
+    font-size: 1.8em;
+    margin: 0.8em; }
+  .iconSize {
+    margin-top: 15px;
+    height: 80px !important;
+    width: 80px !important; }
+  .text__form {
+    font-size: 1.23em; } }
 
 .section__form {
   background-color: #fdf5ec;
@@ -285,7 +323,3 @@ a {
 
 body {
   background-color: #fafafa; }
-
-a {
-  text-decoration: none;
-  color: black; }
