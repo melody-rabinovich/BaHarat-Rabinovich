@@ -217,21 +217,40 @@ nav {
     header h2 {
       font-size: 1.6em; }
     header h3 {
-      font-size: 0.8em; }
+      font-size: 1.4em; }
+  .index__bg {
+    height: 55vh; }
   .index__article {
-    font-size: 1em;
+    font-size: 0.89em;
     margin: 0.3 0.6 0.6 0.6em;
     padding: 0.3em; }
-  .carousel__image--size {
-    height: 45vh; }
+  .gallery__h4 {
+    margin-top: 1.7em;
+    margin-bottom: 2em;
+    font-size: 1.7rem; }
+  .presentacion__h4 {
+    font-size: 1.3em;
+    margin: 1.5em; }
+  .FAQ__h4 {
+    font-size: 1.3em;
+    margin: 1.5em; }
+  .text__form {
+    margin-top: 0;
+    padding-top: 0; }
+  .section__form {
+    height: 98vh;
+    padding-top: 0; }
+  .redes {
+    margin: 0.6em; }
   footer {
     font-size: 1em; }
     footer .inicio {
       font-size: 1.3em;
       color: white; }
   .iconSize {
-    height: 70px !important;
-    width: 70px !important; } }
+    margin-top: 15px;
+    height: 60px !important;
+    width: 60px !important; } }
 
 .section__form {
   background-color: #fdf5ec;
@@ -249,8 +268,8 @@ nav {
   transform: scale(1.06, 1.06); }
 
 .iconSize {
-  height: 128px;
-  width: 128px; }
+  height: 94px;
+  width: 94px; }
 
 .text__form {
   margin: 1em;
@@ -260,5 +279,13 @@ nav {
   margin: 1em;
   padding: 0.7em; }
 
+a {
+  text-decoration: none;
+  color: black; }
+
 body {
   background-color: #fafafa; }
+
+a {
+  text-decoration: none;
+  color: black; }
