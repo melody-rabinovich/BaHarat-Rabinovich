@@ -2,9 +2,9 @@
 /*Nueva Paleta*/
 /*import*/
 header {
-  height: 76vh;
   background-image: url(../imagenes/falafel.jpg);
-  text-align: center; }
+  text-align: center;
+  padding: 1em; }
   header h1 {
     padding: 0.8em 0.8em;
     font-size: 6em;
@@ -21,7 +21,6 @@ header {
     color: #bad15d; }
 
 footer {
-  height: 25vh;
   background-color: #284243;
   text-align: center; }
   footer img {
@@ -32,7 +31,6 @@ footer {
     transform: scale(0.9, 0.9);
     cursor: pointer; }
   footer .inicio {
-    height: 10vh;
     background-color: #62a39e;
     display: flex;
     align-items: center;
@@ -58,8 +56,6 @@ footer {
   margin-bottom: 5em; }
 
 .card__image--size {
-  /*height:15rem;
-	width:15rem;*/
   height: 11.6rem;
   margin-top: 0.7em; }
 
@@ -174,8 +170,7 @@ nav {
 
 /*index*/
 .index__bg {
-  background-color: #fafafa;
-  height: 40vh; }
+  background-color: #fafafa; }
 
 .index__article {
   font-size: 1.1em;
@@ -199,16 +194,12 @@ nav {
   padding: 1.7em; }
 
 @media only screen and (max-width: 767px) {
-  header {
-    height: 35vh; }
-    header h1 {
-      font-size: 2.9em; }
-    header h2 {
-      font-size: 1.6em; }
-    header h3 {
-      font-size: 1.4em; }
-  .index__bg {
-    height: 55vh; }
+  header h1 {
+    font-size: 2.9em; }
+  header h2 {
+    font-size: 1.6em; }
+  header h3 {
+    font-size: 1.4em; }
   .index__article {
     font-size: 0.89em;
     margin: 0.3 0.6 0.6 0.6em;
@@ -227,7 +218,6 @@ nav {
     margin-top: 0px;
     padding-top: 0px; }
   .section__form {
-    height: 98vh;
     padding: 0;
     margin: 0; }
   .redes {
@@ -243,16 +233,12 @@ nav {
     margin: 0; } }
 
 @media only screen and (min-width: 678px), (max-width: 1024px) {
-  header {
-    height: 45vh; }
-    header h1 {
-      font-size: 2.9em; }
-    header h2 {
-      font-size: 1.8em; }
-    header h3 {
-      font-size: 1.3em; }
-  .index__bg {
-    height: 55vh; }
+  header h1 {
+    font-size: 2.9em; }
+  header h2 {
+    font-size: 1.8em; }
+  header h3 {
+    font-size: 1.3em; }
   .gallery__h4 {
     margin: 1.4em;
     font-size: 1.5em; }
@@ -277,19 +263,15 @@ nav {
     font-size: 1.23em; } }
 
 @media only screen and (min-width: 1025px) {
-  header {
-    height: 76vh; }
-    header h1 {
-      padding: 0.8em 0.8em;
-      font-size: 6em; }
-    header h2 {
-      margin: 0.8em 0.7em;
-      font-size: 2.9em; }
-    header h3 {
-      margin: 2em 3em;
-      font-size: 2em; }
-  .index__bg {
-    height: 40vh; }
+  header h1 {
+    padding: 0.8em 0.8em;
+    font-size: 6em; }
+  header h2 {
+    margin: 0.8em 0.7em;
+    font-size: 2.9em; }
+  header h3 {
+    margin: 2em 3em;
+    font-size: 2em; }
   .index__article {
     font-size: 1.1em;
     margin: 2em;
@@ -309,7 +291,6 @@ nav {
 
 .section__form {
   background-color: #fdf5ec;
-  height: 75vh;
   padding-top: 4em; }
 
 .redes {
@@ -323,7 +304,6 @@ nav {
   transform: scale(1.06, 1.06); }
 
 .iconSize {
-  height: 94px;
   width: 94px; }
 
 .text__form {
