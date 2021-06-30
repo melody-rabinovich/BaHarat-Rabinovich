@@ -102,7 +102,6 @@ footer {
 
 nav {
   background-color: #528689;
-  height: 14vh;
   /*lo tiene el index y lacteo. sacarselo*/
   /*underline*/ }
   nav img {
@@ -136,49 +135,6 @@ nav {
   nav .nav__btn--underline:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left; }
-  nav .menu__btn {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80px;
-    height: 80px;
-    cursor: pointer;
-    transition: all .5s ease-in-out;
-    border: 3px solid white; }
-
-.btn__h4 {
-  color: #f7f7f7; }
-
-.btn__bg {
-  background-color: #953767; }
-
-.dropdownMenu--background {
-  background-color: #e0e0e0; }
-
-/*dulce - salado*/
-.title__dulce {
-  margin-top: 2.7em;
-  margin-bottom: 1.6em;
-  color: #528689; }
-
-.title__salado {
-  margin-top: 2.7em;
-  margin-bottom: 1.6em;
-  color: #528689; }
-
-.section__btn {
-  background-color: #f5f5f5; }
-
-.btn__dropdown--atributes {
-  padding: 1em;
-  background-color: #bad15d; }
-
-.btn__h4 {
-  color: #953767; }
-
-.dropdownMenu--background {
-  background-color: #e0e0e0; }
 
 /*dulce - salado*/
 .title__dulce {
@@ -192,9 +148,9 @@ nav {
   color: #528689; }
 
 .gallery__background {
-  background-color: #fafafa;
-  margin-top: 4em;
-  margin-bottom: 5.5em; }
+  background-color: #fdf5ec;
+  padding-top: 4em;
+  padding-bottom: 5.5em; }
 
 .gallery__h4 {
   text-align: center;
@@ -230,7 +186,7 @@ nav {
 /*index*/
 .index__bg {
   background-color: #fafafa;
-  height: 60vh; }
+  height: 40vh; }
 
 .index__article {
   font-size: 1.1em;

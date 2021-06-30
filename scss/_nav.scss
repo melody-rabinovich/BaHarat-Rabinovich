@@ -1,6 +1,5 @@
 nav{
 	background-color:$primary; 
-	height: 14vh;
 	img{
 		border-radius: 50%;
 		margin-left: 10%;
@@ -51,16 +50,4 @@ nav{
 	  transform-origin: bottom left;
 	}
 
-	.menu__btn{
-		position:relative;
-		display:flex;
-		justify-content: center;
-		align-items: center;
-		width: 80px;
-		height:80px;
-		cursor: pointer;
-		transition:all .5s ease-in-out;
-		border:3px solid white;
-		
-	}
 }
