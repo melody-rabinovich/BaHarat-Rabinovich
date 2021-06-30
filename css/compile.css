@@ -1,0 +1,297 @@
+/*Variables*/
+/*Nueva Paleta*/
+/*import*/
+header {
+  height: 76vh;
+  background-color: #fafafa;
+  text-align: center; }
+  header h1 {
+    padding: 0.8em 0.8em;
+    font-size: 6em;
+    color: #C9E265;
+    text-shadow: 0.025em 0.025em #284243; }
+  header h2 {
+    margin: 0.8em 0.7em;
+    font-size: 2.9em;
+    color: #953767; }
+  header h3 {
+    margin: 2em 3em;
+    font-size: 2em;
+    color: #21332c; }
+
+.flecha {
+  height: 1.8em;
+  width: 2em;
+  display: flex;
+  box-align: center; }
+
+.flecha:hover {
+  transform: scale(2em, 2.2em);
+  transition: transform 2s;
+  cursor: pointer; }
+
+footer {
+  height: 25vh;
+  background-color: #284243;
+  text-align: center; }
+  footer img {
+    margin: 2em;
+    height: 3em;
+    width: 3em; }
+  footer img:hover {
+    transform: scale(0.9, 0.9);
+    cursor: pointer; }
+  footer .inicio {
+    height: 10vh;
+    background-color: #62a39e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    color: white;
+    text-decoration: none !important;
+    /*no funciona esto ultimo. quiero que no se note tanto qeu es un hipervinculo*/ }
+  footer a {
+    color: white;
+    text-decoration: none; }
+  footer a:hover {
+    color: #C9E265; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif; }
+
+/*Cards Parve y Lacteo*/
+.cards__section--bg {
+  margin-top: 5em;
+  margin-bottom: 5em; }
+
+.card__image--size {
+  /*height:15rem;
+	width:15rem;*/
+  height: 11.6rem;
+  margin-top: 0.7em; }
+
+.card--space {
+  margin: 1.7em; }
+
+.h4__cards {
+  margin: 1.8em; }
+
+.centerCards {
+  display: flex;
+  justify-content: space-around; }
+
+.card__product--background {
+  background-color: #f5f5f5; }
+
+.FAQ__general {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 1em; }
+
+.FAQ__h4 {
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+  color: #C9E265;
+  font-size: 2rem;
+  text-shadow: 0.022em 0.022em #528689; }
+
+nav {
+  background-color: #528689;
+  height: 14vh;
+  /*lo tiene el index y lacteo. sacarselo*/
+  /*underline*/ }
+  nav img {
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-right: 12%; }
+  nav .scale:hover {
+    transform: scale(0.96, 0.96); }
+  nav ul li {
+    font-size: 1.5em;
+    padding: 1rem; }
+  nav .btn__underline--color {
+    border-bottom: solid #C9E265; }
+  nav .dropdown__btn {
+    background-color: #284243; }
+  nav .nav__btn--underline {
+    display: inline-block;
+    position: relative;
+    color: #0087ca; }
+  nav .nav__btn--underline:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #C9E265;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out; }
+  nav .nav__btn--underline:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left; }
+
+.btn__h4 {
+  color: #f7f7f7; }
+
+.btn__bg {
+  background-color: #953767; }
+
+.dropdownMenu--background {
+  background-color: #e0e0e0; }
+
+/*dulce - salado*/
+.title__dulce {
+  margin-top: 2.7em;
+  margin-bottom: 1.6em;
+  color: #528689; }
+
+.title__salado {
+  margin-top: 2.7em;
+  margin-bottom: 1.6em;
+  color: #528689; }
+
+.section__btn {
+  background-color: #f5f5f5; }
+
+.btn__dropdown--atributes {
+  padding: 1em;
+  background-color: #C9E265; }
+
+.btn__h4 {
+  color: #953767; }
+
+.dropdownMenu--background {
+  background-color: #e0e0e0; }
+
+/*dulce - salado*/
+.title__dulce {
+  margin-top: 2.7em;
+  margin-bottom: 1.6em;
+  color: #528689; }
+
+.title__salado {
+  margin-top: 2.7em;
+  margin-bottom: 1.6em;
+  color: #528689; }
+
+.gallery__background {
+  background-color: #fafafa;
+  margin-top: 4em;
+  margin-bottom: 5.5em; }
+
+.gallery__h4 {
+  text-align: center;
+  margin-top: 2.3em;
+  margin-bottom: 2.3em;
+  font-size: 2rem; }
+
+.galleryBox {
+  display: flex;
+  justify-content: center; }
+
+.galleryItem {
+  padding: 1em;
+  margin: 1em 0.5em;
+  height: 16rem;
+  width: 20rem; }
+
+.gallery--scale:hover {
+  transform: scale(1.2, 1.2);
+  transition: transform 1.3s;
+  cursor: pointer; }
+
+.gallery__name {
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%); }
+
+/*index*/
+.index__bg {
+  background-image: url(../imagenes/falafel.jpg);
+  height: 60vh; }
+
+.index__article {
+  font-size: 1.1em;
+  color: white;
+  margin: 2em;
+  padding: 0 3em;
+  text-align: left; }
+
+/*presentacion*/
+.presentacion__h4 {
+  text-align: center;
+  margin: 3rem;
+  font-size: 2rem;
+  color: #C9E265; }
+
+.presentacion__article {
+  background-color: #62a39e;
+  font-size: 1.09em;
+  color: #f7f7f7;
+  margin: 1em;
+  padding: 1.7em; }
+
+@media only screen and (max-width: 767px) {
+  header {
+    height: 35vh; }
+    header h1 {
+      font-size: 2.9em; }
+    header h2 {
+      font-size: 1.6em; }
+    header h3 {
+      font-size: 0.8em; }
+  .index__article {
+    font-size: 1em;
+    margin: 0.3 0.6 0.6 0.6em;
+    padding: 0.3em; }
+  .carousel__image--size {
+    height: 45vh; }
+  footer {
+    font-size: 1em; }
+    footer .inicio {
+      font-size: 1.3em;
+      color: white; }
+  .iconSize {
+    height: 70px !important;
+    width: 70px !important; } }
+
+.section__form {
+  background-color: #fdf5ec;
+  height: 75vh;
+  padding-top: 4em; }
+
+.redes {
+  display: flex;
+  justify-content: space-around; }
+
+.iconShadow {
+  margin-top: 2em; }
+
+.iconShadow:hover {
+  transform: scale(1.06, 1.06); }
+
+.iconSize {
+  height: 128px;
+  width: 128px; }
+
+.text__form {
+  margin: 1em;
+  padding: 1.6em; }
+
+.form {
+  margin: 1em;
+  padding: 0.7em; }
+
+body {
+  background-color: #fafafa; }

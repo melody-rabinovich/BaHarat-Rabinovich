@@ -1,0 +1,39 @@
+header{
+	height:76vh;
+	background-color: $neutral;
+	text-align: center;
+
+
+	h1{
+		padding:0.8em 0.8em;
+		font-size: 6em;
+		color:$primaryLight;
+		text-shadow: 0.025em 0.025em $primaryDark;
+	}
+
+	h2{
+		margin:0.8em 0.7em;
+		font-size:2.9em;
+		color:$alter;
+	}
+
+	h3{
+		margin:2em 3em;
+		font-size: 2em;
+		color:$dark;
+	}
+
+}
+
+.flecha{
+	height: 1.8em;
+	width: 2em;
+	display:flex;
+	box-align:center;
+}
+
+.flecha:hover{
+	transform:scale(2em, 2.2em);
+	transition:transform (2s);
+	cursor:pointer;
+}

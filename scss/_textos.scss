@@ -1,0 +1,28 @@
+/*index*/
+.index__bg{
+	background-image:url(../imagenes/falafel.jpg);
+	height:60vh;
+}
+.index__article{
+	font-size: 1.1em;
+	color:white;
+	margin:2em;
+	padding: 0 3em;
+	text-align:left;
+}
+
+/*presentacion*/
+.presentacion__h4{
+	text-align:center;
+	margin:3rem;
+	font-size: 2rem;
+	color:$primaryLight;
+}
+
+.presentacion__article{
+	background-color:$primaryBright;
+	font-size:1.09em;
+	color:$light;
+	margin:1em;
+	padding:1.7em;
+}

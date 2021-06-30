@@ -1,0 +1,32 @@
+.section__form{
+	background-color:$clear;
+	height:75vh;
+	padding-top:4em;
+}
+.redes{
+	display:flex;
+	justify-content:space-around;
+}
+
+.iconShadow{
+	margin-top:2em;
+}
+
+.iconShadow:hover{
+	transform:scale(1.06, 1.06);
+}
+
+.iconSize{
+	height:128px;
+	width:128px;
+}
+
+.text__form{
+	margin:1em;
+	padding:1.6em;
+}
+
+.form{
+	margin:1em;
+	padding:0.7em;
+}

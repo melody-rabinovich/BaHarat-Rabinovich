@@ -1,0 +1,30 @@
+
+/*Cards Parve y Lacteo*/
+.cards__section--bg{
+	margin-top:5em;
+	margin-bottom:5em;
+}
+
+.card__image--size{
+	/*height:15rem;
+	width:15rem;*/
+	height:11.6rem;
+	margin-top:0.7em;
+}
+
+.card--space{
+	margin:1.7em;
+}
+
+.h4__cards{
+	margin:1.8em;
+}
+
+.centerCards{
+	display: flex;
+	justify-content:space-around;
+}
+
+.card__product--background{
+	background-color:$grey2;
+}
