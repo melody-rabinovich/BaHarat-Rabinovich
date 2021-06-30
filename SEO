@@ -1,0 +1,33 @@
+Documento Explicativo SEO
+
+1) En el archivo index.html agregué las siguientes características:
+    > Optimicé las imágenes lo más que pude.
+    > Cambié el título a “BaHarat Kosher - Comida Mediterránea”.
+    > Agregue la siguiente descripción: “ BaHarat es un emprendimiento kosher de comida mediterránea supervisada por el Rab Mordejai Bobek ”
+    > Con la etiqueta meta name keywords usé las siguientes palabras clave: “ comida, sabores, sabor, kosher, oriental, mediterránea, medio-oriente, sefaradí, mizrahí, ashkenazi, kashrut ”
+    > Agregué artículos con textos para que tengan relación con las palabras clave.
+
+2) En el archivo presentacion.html agregué las siguientes características:
+    >Optimicé las imágenes lo más que pude.
+    >Cambié el título a “BaHarat - Conocenos”.
+    >Agregue la siguiente descripción: “Somos la continuación de un proyecto familiar de más de sesenta años. En la actualidad, trabajamos para mantener vivos aquellos sabores”
+    >Con la etiqueta meta name keywords usé las siguientes palabras clave: “ comida, sabor, sabores, kosher, oriental, mediterránea, medio-oriente, sefaradí, mizrahí, ashkenazi, kashrut ”.
+    >Agregué artículos con un párrafo cada uno, para que queden acordes a las palabras clave.
+
+3) En el archivo parve.html le agregué las siguientes características:
+    > Optimicé las imágenes lo más que pude.
+    > Cambié el título a “BaHarat Parve”
+    > Agregue la siguiente descripción: “en BaHarat hacemos nuestros mayores esfuerzos para contener los sabores y la esencia de la cocina casera de finales del siglo XIX.”
+    > Con la etiqueta meta name keywords usé las siguientes palabras clave: “ comida, kosher, parve, oriental, mediterránea, medio oriente, sefaradí, mizrahí, kashrut ”
+
+
+4) En el archivo lacteo.html le agregué las siguientes características:
+    > Optimicé las imágenes lo más que pude.
+    > Cambié el título a “BaHarat Lácteo”
+    > Agregue la siguiente descripción: “en BaHarat hacemos nuestros mayores esfuerzos para contener los sabores y la esencia de la cocina casera de finales del siglo XIX.”
+    > Con la etiqueta meta name keywords usé las siguientes palabras clave: “ comida, kosher, lácteo, oriental, mediterránea, medio oriente, sefaradí, mizrahí, kashrut ”.
+
+5) En el archivo contacto.html le agregué las siguientes características:
+    > Cambié el título a “BaHarat - Contactanos”
+    > Agregue la siguiente descripción:”¿Querés saber más sobre nosotros? ¡Contactanos!”
+    > Con la etiqueta meta name keywords usé las siguientes palabras clave: “ comida, kosher, oriental, mediterránea, medio oriente, sefaradí, mizrahí, kashrut ”.

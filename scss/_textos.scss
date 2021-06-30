@@ -1,11 +1,11 @@
 /*index*/
 .index__bg{
-	background-image:url(../imagenes/falafel.jpg);
+	background-color:$neutral;
 	height:60vh;
 }
 .index__article{
 	font-size: 1.1em;
-	color:white;
+	color:$primaryDark;
 	margin:2em;
 	padding: 0 3em;
 	text-align:left;

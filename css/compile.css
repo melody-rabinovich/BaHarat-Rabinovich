@@ -3,21 +3,22 @@
 /*import*/
 header {
   height: 76vh;
-  background-color: #fafafa;
+  background-image: url(../imagenes/falafel.jpg);
   text-align: center; }
   header h1 {
     padding: 0.8em 0.8em;
     font-size: 6em;
-    color: #C9E265;
-    text-shadow: 0.025em 0.025em #284243; }
+    color: #fdf5ec;
+    text-shadow: 0.035em 0.035em #953767; }
   header h2 {
     margin: 0.8em 0.7em;
     font-size: 2.9em;
-    color: #953767; }
+    color: #D8F58D;
+    text-shadow: 0.045em 0.045em #284243; }
   header h3 {
     margin: 2em 3em;
     font-size: 2em;
-    color: #21332c; }
+    color: #bad15d; }
 
 .flecha {
   height: 1.8em;
@@ -55,7 +56,7 @@ footer {
     color: white;
     text-decoration: none; }
   footer a:hover {
-    color: #C9E265; }
+    color: #bad15d; }
 
 * {
   margin: 0;
@@ -95,7 +96,7 @@ footer {
   padding: 1em;
   margin: 1em;
   text-align: center;
-  color: #C9E265;
+  color: #bad15d;
   font-size: 2rem;
   text-shadow: 0.022em 0.022em #528689; }
 
@@ -114,7 +115,7 @@ nav {
     font-size: 1.5em;
     padding: 1rem; }
   nav .btn__underline--color {
-    border-bottom: solid #C9E265; }
+    border-bottom: solid #bad15d; }
   nav .dropdown__btn {
     background-color: #284243; }
   nav .nav__btn--underline {
@@ -129,12 +130,22 @@ nav {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #C9E265;
+    background-color: #bad15d;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out; }
   nav .nav__btn--underline:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left; }
+  nav .menu__btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    border: 3px solid white; }
 
 .btn__h4 {
   color: #f7f7f7; }
@@ -161,7 +172,7 @@ nav {
 
 .btn__dropdown--atributes {
   padding: 1em;
-  background-color: #C9E265; }
+  background-color: #bad15d; }
 
 .btn__h4 {
   color: #953767; }
@@ -218,12 +229,12 @@ nav {
 
 /*index*/
 .index__bg {
-  background-image: url(../imagenes/falafel.jpg);
+  background-color: #fafafa;
   height: 60vh; }
 
 .index__article {
   font-size: 1.1em;
-  color: white;
+  color: #284243;
   margin: 2em;
   padding: 0 3em;
   text-align: left; }
@@ -233,7 +244,7 @@ nav {
   text-align: center;
   margin: 3rem;
   font-size: 2rem;
-  color: #C9E265; }
+  color: #bad15d; }
 
 .presentacion__article {
   background-color: #62a39e;

@@ -1,26 +1,27 @@
 header{
 	height:76vh;
-	background-color: $neutral;
+	background-image: url(../imagenes/falafel.jpg);
 	text-align: center;
 
 
 	h1{
 		padding:0.8em 0.8em;
 		font-size: 6em;
-		color:$primaryLight;
-		text-shadow: 0.025em 0.025em $primaryDark;
+		color:$clear;
+		text-shadow: 0.035em 0.035em $alter;
 	}
 
 	h2{
 		margin:0.8em 0.7em;
 		font-size:2.9em;
-		color:$alter;
+		color:$primaryLighter;
+		text-shadow: 0.045em 0.045em $primaryDark;
 	}
 
 	h3{
 		margin:2em 3em;
 		font-size: 2em;
-		color:$dark;
+		color:$primaryLight;
 	}
 
 }
