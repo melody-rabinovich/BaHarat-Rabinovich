@@ -25,16 +25,3 @@ header{
 	}
 
 }
-
-.flecha{
-	height: 1.8em;
-	width: 2em;
-	display:flex;
-	box-align:center;
-}
-
-.flecha:hover{
-	transform:scale(2em, 2.2em);
-	transition:transform (2s);
-	cursor:pointer;
-}
