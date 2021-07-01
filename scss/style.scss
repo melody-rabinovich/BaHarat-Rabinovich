@@ -1,6 +1,7 @@
 /*Variables*/
 /*Nueva Paleta*/
 $primary:#528689;
+$primaryBright:#62a39e;
 $primaryLight:#bad15d;
 $primaryLighter:#D8F58D;
 $alter:#953767;
@@ -9,17 +10,7 @@ $light:#f7f7f7;
 $dark:#21332c;
 $neutral:#fafafa;
 $primaryDark:#284243;
-$primaryBright:#62a39e;
 $grey2:#f5f5f5;
-
-// paleta que no va
-$secondary:#953767;
-$secondaryLight:#FFDE59;
-$secondaryDark:#c79100;
-$textPrimary:#eeff41;
-$textSecondary:#4e342e;
-$grey1:#e0e0e0;
-$warning:#fcba03;
 
 /*import*/
 @import "_header";

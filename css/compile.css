@@ -37,8 +37,7 @@ footer {
     justify-content: center;
     font-size: 1.6rem;
     color: white;
-    text-decoration: none !important;
-    /*no funciona esto ultimo. quiero que no se note tanto qeu es un hipervinculo*/ }
+    text-decoration: none !important; }
   footer a {
     color: white;
     text-decoration: none; }
@@ -65,6 +64,9 @@ footer {
 .h4__cards {
   margin: 1.8em; }
 
+.cardTitles {
+  margin-bottom: 12px; }
+
 .centerCards {
   display: flex;
   justify-content: space-around; }
@@ -87,7 +89,6 @@ footer {
 
 nav {
   background-color: #528689;
-  /*lo tiene el index y lacteo. sacarselo*/
   /*underline*/ }
   nav img {
     border-radius: 50%;
@@ -105,7 +106,7 @@ nav {
   nav .nav__btn--underline {
     display: inline-block;
     position: relative;
-    color: #0087ca; }
+    color: #bad15d; }
   nav .nav__btn--underline:after {
     content: '';
     position: absolute;
@@ -139,9 +140,11 @@ nav {
 
 .gallery__h4 {
   text-align: center;
-  margin-top: 2.3em;
+  margin-top: 2em;
   margin-bottom: 2.3em;
-  font-size: 2rem; }
+  font-size: 2rem;
+  color: #bad15d;
+  text-shadow: 0.03em 0.03em #528689; }
 
 .galleryBox {
   display: flex;
@@ -317,6 +320,9 @@ nav {
 a {
   text-decoration: none;
   color: black; }
+
+a:hover {
+  color: #62a39e; }
 
 body {
   background-color: #fafafa; }
